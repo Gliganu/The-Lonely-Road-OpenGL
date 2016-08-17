@@ -1,0 +1,24 @@
+﻿Build started 12-Jan-16 10:01:59 AM.
+     1>Project "C:\ComputerScienceArchive\GPS Projects\Lab Works\proj sem\OpenGLApplication\OpenGLApplication.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp".\Debug\OpenGLApplication.pch" /Fo".\Debug\\" /Fd".\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt OpenGLApplication.cpp
+         OpenGLApplication.cpp
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(13): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(18): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(23): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(57): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(59): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(602): warning C4101: 'starZ': unreferenced local variable
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(602): warning C4101: 'starX': unreferenced local variable
+     1>c:\computersciencearchive\gps projects\lab works\proj sem\openglapplication\openglapplication.cpp(740): warning C4838: conversion from 'int' to 'GLfloat' requires a narrowing conversion
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\OpenGLApplication.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug\OpenGLApplication.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\OpenGLApplication.lib" /MACHINE:X86 /SAFESEH .\Debug\glm.obj
+         .\Debug\OpenGLApplication.obj
+         .\Debug\StdAfx.obj
+         .\Debug\tga.obj
+         OpenGLApplication.vcxproj -> C:\ComputerScienceArchive\GPS Projects\Lab Works\proj sem\OpenGLApplication\.\Debug\OpenGLApplication.exe
+     1>Done Building Project "C:\ComputerScienceArchive\GPS Projects\Lab Works\proj sem\OpenGLApplication\OpenGLApplication.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.81
